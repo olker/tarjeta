@@ -53,6 +53,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 .outside {
   -webkit-transform-style: preserve-3d;
@@ -73,8 +74,10 @@ body {
 }
 .front {
   background: url("./externa.jpg");
-  background-size: cover;
+  background-size: 100%;
+  background-image: no-repeat;
   border: 2px solid black;
+  
 }
 .back {
   transform: rotateY(180deg);
@@ -87,7 +90,7 @@ body {
   margin-top: 30px;
   text-align: center;
   letter-spacing: 6px;
-  color: #000;
+  color: white;
   font-weight: 800;
 }
 .inside h1 {
