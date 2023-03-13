@@ -4,27 +4,20 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background: url("./cadse.jpg");
-  background-size: 80%;
-  background-repeat: no-repeat;
-  width: 700px;
-  height: 600px;
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 .card {
   width: 640px;
   height: 450px;
   margin-top: 100px;
-  margin-left: 25%;
+  margin-left: 15%;
   -webkit-perspective: 1200px;
   perspective: 1200px;
   transition: 1s;
 }
-@media (min-width: 768px) {
-  .card{
-    margin-left: 25%;
-  }
-}
+
 .card:hover {
   transform: rotate(-5deg);
 }
