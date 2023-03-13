@@ -6,11 +6,10 @@
 }
 body {
   background: url("./cadse.jpg");
-  background-size: contain;
-}
-.alto{
-  width: 50%;
-  height: 400px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 600px;
 }
 .card {
   width: 640px;
